@@ -1,7 +1,8 @@
-# first what are the classes:
-# qustion, player, game.
-#require in main
+
 require './game'
 require './players'
-require './question'
+require './questions'
 
+new_game = Game.new('new game')
+
+new_game.begin
