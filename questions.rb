@@ -2,7 +2,7 @@
 #ask and check the answer?
 
 
-class question
+class Question
   def initialize
     @num1 = rand(1..20)
     @num2 = rand(1..20)
@@ -17,3 +17,5 @@ class question
     @sum == input
   end
 end
+
+
